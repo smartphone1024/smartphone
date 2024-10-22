@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra y Reparación de Teléfonos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Logo de la Empresa">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="moviles.html">Compra</a></li>
+                <li><a href="reparacion.html">Reparación</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+                <li><a href="atencion.html">Atención al Cliente</a></li> <!-- Nueva línea -->
+                <li><button id="loginButton">Iniciar Sesión</button></li>
+                <li><button id="signupButton">Registrarse</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Bienvenido a tu tienda de telefonía</h1>
+            <p>Compra y repara tus dispositivos con nosotros.</p>
+            <img src="images/hero.jpg" alt="Teléfonos" class="hero-image">
+        </section>
+
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa dedicada a la compra y reparación de teléfonos. Ofrecemos servicios rápidos y confiables para asegurar tu satisfacción.</p>
+        </section>
+
+        <section id="services">
+            <h2>Servicios Ofrecidos</h2>
+            <div class="service-container">
+                <div class="service">
+                    <h3>Compra de Teléfonos</h3>
+                    <p>Encuentra una amplia variedad de dispositivos a precios competitivos.</p>
+                </div>
+                <div class="service">
+                    <h3>Reparación de Teléfonos</h3>
+                    <p>Servicios de reparación rápida para que vuelvas a usar tu teléfono.</p>
+                </div>
+                <div class="service">
+                    <h3>Asesoramiento Personalizado</h3>
+                    <p>Recibe recomendaciones y consejos de expertos para elegir el mejor dispositivo.</p>
+                </div>
+                <div class="service">
+                    <h3>Accesorios y Complementos</h3>
+                    <p>Disponemos de una variedad de accesorios para mejorar tu experiencia con tu dispositivo.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="hidden">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="reviews">
+            <h2>Reseñas de Clientes</h2>
+            <div class="review-container" id="review-container">
+                <!-- Reseñas se añadirán aquí -->
+            </div>
+            <form id="review-form">
+                <label for="reviewer-name">Nombre:</label>
+                <input type="text" id="reviewer-name" required>
+                
+                <label for="review-text">Reseña:</label>
+                <textarea id="review-text" required></textarea>
+                
+                <button type="submit">Enviar Reseña</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Compra y Reparación. Todos los derechos reservados por el "cocas", te hechas un wiki?.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

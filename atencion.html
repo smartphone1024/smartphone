@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atención al Cliente - Tienda de Móviles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Logo de la Empresa">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="moviles.html">Compra</a></li>
+                <li><a href="reparacion.html">Reparación</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+                <li><a href="atencion.index">Atención al Cliente</a></li>
+                <li><button id="loginButton">Iniciar Sesión</button></li>
+                <li><button id="signupButton">Registrarse</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Atención al Cliente</h1>
+            <p>Estamos aquí para ayudarte con cualquier consulta o problema relacionado con nuestros productos y servicios.</p>
+        </section>
+
+        <section id="faq">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="faq-item">
+                <h3>¿Cuál es el horario de atención al cliente?</h3>
+                <p>Nuestro horario de atención es de lunes a viernes, de 9:00 a 18:00 horas. También atendemos los sábados de 10:00 a 14:00 horas.</p>
+            </div>
+            <div class="faq-item">
+                <h3>¿Cómo puedo realizar una devolución?</h3>
+                <p>Para realizar una devolución, debes presentar el recibo de compra y el producto en su estado original. Tienes un plazo de 30 días a partir de la fecha de compra para solicitarla.</p>
+            </div>
+            <div class="faq-item">
+                <h3>¿Ofrecen garantía en los productos?</h3>
+                <p>Sí, todos nuestros productos cuentan con una garantía de 12 meses. La garantía cubre defectos de fabricación, pero no daños causados por mal uso.</p>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si no encuentras la respuesta que buscas, no dudes en ponerte en contacto con nosotros:</p>
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="horarios">
+            <h2>Nuestros Horarios</h2>
+            <ul>
+                <li>Lunes a Viernes: 9:00 - 18:00</li>
+                <li>Sábados: 10:00 - 14:00</li>
+                <li>Domingos: Cerrado</li>
+            </ul>
+        </section>
+
+        <section id="politicas">
+            <h2>Políticas de Servicio</h2>
+            <p>Nuestras políticas están diseñadas para asegurar que nuestros clientes reciban el mejor servicio posible. Te recomendamos leer nuestras políticas de devolución y garantía en nuestra página web.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tienda de Móviles. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
